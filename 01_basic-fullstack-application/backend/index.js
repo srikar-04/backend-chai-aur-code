@@ -18,22 +18,22 @@ app.get('/jokes', (req, res) => {
         {
             id: 1,
             title: 'joke 1',
-            content: 'this is a joke',
+            content: 'this is a joke 1',
         },
         {
             id: 2,
             title: 'joke 2',
-            content: 'this is a joke',
+            content: 'this is a joke 2',
         },
         {
             id: 3,
             title: 'joke 3',
-            content: 'this is a joke',
+            content: 'this is a joke 3',
         },
         {
             id: 4,
             title: 'joke 4',
-            content: 'this is a joke',
+            content: 'this is a joke 4',
         }
     ]
     res.send(jokes)
