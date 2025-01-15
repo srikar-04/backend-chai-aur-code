@@ -1,0 +1,22 @@
+{
+  "name": "basic-backend",
+  "version": "1.0.0",
+  "description": "basic backend from hitesh sir's tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "backend",
+    "fullstack",
+    "chai",
+    "youtube"
+  ],
+  "author": "srikar purijala",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
