@@ -5,7 +5,7 @@ require('dotenv').config()
 const PORT = parseInt(process.env.PORT, 10)
 
 app.get('/', (req, res) => {
-    res.send('hello world')
+    res.send('hello')
 })
 
 
