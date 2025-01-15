@@ -1,6 +1,11 @@
-const express = require('express');
+// const express = require('express');
+// require('dotenv').config()
+
+import express from 'express'
+import 'dotenv/config'
+
 const app = express();
-require('dotenv').config()
+
 
 const PORT = parseInt(process.env.PORT, 10) || 5000
 
